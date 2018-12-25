@@ -1,0 +1,4 @@
+chattr +i /etc/passwd   
+useradd tc   无法创建
+chattr -i /etc/passwd
+useradd tc   可以创建
